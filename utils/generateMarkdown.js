@@ -91,5 +91,5 @@ function generateMarkdown(data) {
   [Email: ${data.email}](mailto:${data.email})
 `;
 }
-
+//cool
 module.exports = generateMarkdown;
