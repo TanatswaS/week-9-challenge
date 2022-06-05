@@ -129,3 +129,15 @@ inquirer.prompt(
   }
 ]
 )
+//function for read me
+function writeToFile(fileName, data) { }
+
+//initialize app
+const init = () => {
+  return inquirer.prompt(questions)
+  .then(readmeData => {
+    console.log(readmeData);
+  })
+}
+
+init();
