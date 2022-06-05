@@ -22,8 +22,10 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Description
+
   ${data.description}
   ## Installation
   ${data.installation}
@@ -35,6 +37,11 @@ function generateMarkdown(data) {
   ${data.contribute}
   ## Tests
   ${data.test}
+
+  ## Questions
+  For questions please contact me using the following links:
+  [GitHub](https://github.com/${data.githubUsername})
+  [Email: ${data.email}](mailto:${data.email})
 `;
 }
 
