@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 //inquire to generate questions
-inquirer.prompt(
+const questions =
   [
     {
         type: 'input',
@@ -127,8 +127,8 @@ inquirer.prompt(
           }
       }
   }
-]
-)
+];
+
 //function for read me
 function writeToFile(fileName, data) { }
 
