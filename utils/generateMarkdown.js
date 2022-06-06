@@ -80,7 +80,11 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  ${data.description}
+  ${data.what}
+  
+  ${data.why}
+ 
+  ${data.how}
   
   ## [Installation](#table-of-contents) 
   ${data.installation}
@@ -94,7 +98,7 @@ function generateMarkdown(data) {
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   ${renderLicenseSection(data.license)}
-  
+
   ## [Contributing](#table-of-contents)
   
   ${renderContributingSection(data.confirmContributers, data.contribute)}
