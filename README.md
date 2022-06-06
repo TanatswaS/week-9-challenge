@@ -56,7 +56,7 @@
 
   ## [Tests](#table-of-contents)
 
-  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
+  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘week-9-challenge’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
   ## [Questions](#table-of-contents)
 
