@@ -33,10 +33,10 @@
   [Tutorial on how to use app](https://drive.google.com/file/d/1D2fBbKYpz3s7xbjWTj9DZnJrpr12AgbM/view)
 
   README Screenshot No License
-  ![README Screenshot No License](utils/images/no-license-sc.png)
+  ![README Screenshot No License](utils/images/no-license-sc.PNG)
 
   README Screenshot with License
-  ![README Screenshot with License](utils/images/license-sc.png)
+  ![README Screenshot with License](utils/images/license-sc.PNG)
 
   ## [Usage](#table-of-contents)
 
