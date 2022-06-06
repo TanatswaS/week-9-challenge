@@ -1,3 +1,15 @@
+// create a function to return a message if user doesn't want contributors
+function renderContributingSection(confirmContributers, data) {
+  if (!confirmContributers) {
+    return `
+  Thank you for your interest in helping out; however, I will not be accepting contributions from third parties.
+    `;
+  } else {
+    return `
+  ${data}
+    `;
+  }
+}
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) 
@@ -68,7 +80,11 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  ${data.description}
+  ${data.what}
+  
+  ${data.why}
+ 
+  ${data.how}
   
   ## [Installation](#table-of-contents) 
   ${data.installation}
@@ -77,8 +93,15 @@ function generateMarkdown(data) {
   ${data.usage}
   ${renderLicenseSection(data.license)}
  
+  For more information on how to add screenshots for examples, visit the following website:
+  
+  [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
+  
+  ${renderLicenseSection(data.license)}
+
   ## [Contributing](#table-of-contents)
-  ${data.contribute}
+  
+  ${renderContributingSection(data.confirmContributers, data.contribute)}
  
   ## [Tests](#table-of-contents)
   ${data.test}
