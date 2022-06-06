@@ -24,7 +24,19 @@
 
   Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal.  Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory ‘challenge-9-professional-README-generator. You’ll now be ready to run the app!
 
-  [README Generator Download Link](https://github.com/mjgiannelli/challenge-9-professional-README-generator/)
+  [README Generator Download Link](https://github.com/TanatswaS/week-9-challenge.git)
+
+ [ZIP file download Tutorial](https://drive.google.com/file/d/1Es77aULk006BU_krKsyRvkA5YwO5_yvE/view)
+
+  [Git Clone download Tutorial](https://drive.google.com/file/d/1i-yD756_Ibe_SUFfAvNI3cTmBkNMfbiq/view)
+
+  [Tutorial on how to use app](https://drive.google.com/file/d/1D2fBbKYpz3s7xbjWTj9DZnJrpr12AgbM/view)
+
+  README Screenshot No License
+  ![README Screenshot No License](utils/images/no-license-screenshot.png)
+
+  README Screenshot with License
+  ![README Screenshot with License](utils/images/with-license-screenshot.png)
 
   ## [Usage](#table-of-contents)
 
