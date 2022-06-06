@@ -22,7 +22,7 @@
 
   ## [Installation](#table-of-contents)
 
-  Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal.  Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory ‘challenge-9-professional-README-generator. You’ll now be ready to run the app!
+  Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal.  Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory ‘week-9-challenge. You’ll now be ready to run the app!
 
   [README Generator Download Link](https://github.com/TanatswaS/week-9-challenge.git)
 
@@ -56,7 +56,7 @@
 
   ## [Tests](#table-of-contents)
 
-  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
+  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘week-9-challenge’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
   ## [Questions](#table-of-contents)
 
